@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
@@ -13,16 +14,13 @@ export class SidenavComponent {
       number: '1',
       name: 'dashboard',
       icon: 'fa-solid fa-house',
-    },
-    {
-      number: '2',
-      name: 'credcoop',
-      icon: 'fa-solid fa-house',
+      path:  "",
     },
     {
       number: '2',
       name: 'esctop',
       icon: 'fa-solid fa-house',
+      path:  "esctop",
     },
   ]
 }
