@@ -23,6 +23,7 @@
 .nav-list-open .nav-list-item:hover {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .nav-list-item i{
@@ -43,4 +44,9 @@
 a {
     text-decoration: none;
     color: white;
+}
+
+.nav-list-item-active {
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 10px;
 }

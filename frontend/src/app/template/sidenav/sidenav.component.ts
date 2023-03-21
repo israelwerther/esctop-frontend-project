@@ -20,7 +20,8 @@ export class SidenavComponent {
       number: '2',
       name: 'esctop',
       icon: 'fa-solid fa-house',
-      path:  "esctop",
+      path:  "/esctop",
     },
   ]
+  
 }
